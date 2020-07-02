@@ -1,8 +1,7 @@
-import React from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import { Block } from '../../interfaces/block.interface';
 
-function InnerHtml({ block }: Block) {
+function InnerHtml({ block }: Block): any {
   return ReactHtmlParser(block.innerHTML);
 }
 

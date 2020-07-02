@@ -1,25 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import InnerBlock from './components/InnerBlock';
+import { mockColumns } from './testing/mocks/inner-block.mock';
+import InnerHtml from './components/InnerHtml';
+import { mockParagraph } from './testing/mocks/inner-html.mock';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <InnerHtml block={mockParagraph} />
+      <InnerBlock block={mockColumns} />
+    </>
   );
 }
 
