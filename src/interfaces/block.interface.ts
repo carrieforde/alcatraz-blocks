@@ -3,7 +3,7 @@ export interface BlockData {
     attrs: any;
     innerBlocks: any[];
     innerHTML: string;
-    innerContent: string[];
+    innerContent: Array<string | null>;
     index?: number;
 }
 
