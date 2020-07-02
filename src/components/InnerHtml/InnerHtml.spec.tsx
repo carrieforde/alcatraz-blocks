@@ -2,7 +2,7 @@ import React from 'react';
 import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import InnerHtml from './index';
-import { mockParagraph } from '../../testing/mocks/inner-html.mock';
+import { mockParagraph } from '../../mocks/inner-html.mock';
 
 let container: HTMLDivElement;
 

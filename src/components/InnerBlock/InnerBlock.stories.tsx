@@ -1,6 +1,6 @@
 import React from 'react';
 import InnerBlock from './index';
-import { mockCover, mockColumns } from '../../testing/mocks/inner-block.mock';
+import { mockCover, mockColumns } from '../../mocks/inner-block.mock';
 
 export default {
   title: 'InnerBlock',

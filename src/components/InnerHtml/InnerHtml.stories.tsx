@@ -13,7 +13,7 @@ import {
   mockButtons,
   mockPullQuotes,
   mockImages,
-} from '../../testing/mocks/inner-html.mock';
+} from '../../mocks/inner-html.mock';
 
 export default {
   title: 'InnerHtml',
